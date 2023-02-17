@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Domaci2</title>
+    <style>
+       *{
+           box-sizing: border-box;
+       }/*zasto sam morao da stavim iznad style pa * pa box sizing border box?Nije mi bas jasno.
+    Formu nisam stavio i na kraju sam shvatio greske u domacem no voleo bih da jos jednom objasnite za formu i div*/
+
+       html, body h1, h2, h3, h4, h5, h6,p{
+            background-color: #1e1e1e
+        }
+        .title{
+            font-weight: 700;
+            font-size: 24px;
+            color: white
+            
+
+            
+        }
+        .text-orange{
+            color: #d3924a;
+            font-weight: 500;
+            font-size: 14px;
+        }
+        .h2{
+         font-weight: 400;
+         font-size: 16px;
+         color: #d3924a;
+    
+        }
+        .btn{
+            width: 110px;
+            height: 43px;
+            background-color: #ce791b;
+            font-weight: 700;
+            font-size: 16px;
+            color: #fff6f1;
+        
+        
+        }
+        #Notify{
+            font-weight: 500;
+            font-size: 14px;
+            color: #d3924a;
+        }
+        .no-file-choosen{
+            font-weight: 400;
+            font-size: 14px;
+            color: #a69c9c;
+        }
+        .choose-file{
+            width: 86px;
+            height: 16px;
+        }
+
+    </style>
+</head>
+<body>
+ <h1 class="title">Apply for the position</h1>
+ <h2 class="h2">Fill the form below with your infomation</h2>
+ <br>
+ <h3 class="text-orange">Name</h3>
+ <input type="text" placeholder="Enter your name">
+ <h3 class="text-orange">Lastname</h3>
+ <input type="text" placeholder="Enter your lastname">
+ <h3 class="text-orange">Phone</h3>
+ <input type="number" placeholder="Enter your phone">
+ <h3 class="text-orange">Email</h3>
+ <input type="email" placeholder="Enter your email">
+ <h3 class="text-orange">Upload your CV</h3>
+ <input type="Subject" placeholder="Choose File"><label class="no-file-choosen">No file chosen</label>
+ <br>
+ <h3 class="text-orange">Subject</h3>
+ <input type="text" placeholder="Enter subject">
+ 
+ <h3 class="text-orange" >Add message</h3>
+ <input type="text" placeholder="Enter your message">
+ <input type="checkbox"> <label id="Notify">Notify me by email</label>
+ <br>
+ <br>
+ 
+ <button class="btn" type="submit">Apply</button>
+</body>
+</html>
